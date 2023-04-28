@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen>
     _color =
         ColorTween(begin: Colors.amber, end: Colors.brown).animate(_controller);
 
-    _container = Tween(begin: 10.0, end: 200.0).animate(_controller);
+    _container = Tween(begin: 100.0, end: 200.0).animate(_controller);
 
     _logo = Tween<double>(begin: 30.0, end: 300.0).animate(_controller);
 
